@@ -10,9 +10,10 @@ body {
 .card {
   color: #171818;
   background-color: #D5FFE4;
-  padding: 0;
+  margin-top: 40px;
   height: 50%;
-  margin-top: 0;
+  padding: 0;
+  display: flex;
 }
 
 .content {
@@ -35,15 +36,23 @@ body {
 .banner>img {
   width: 60vw;
   transition: 0.1s linear;
+  margin-top: 10%;
 }
 
 .banner h2 {
   font-weight: 500;
-  font-size: 30px;
   margin: 0 0 10px;
+  padding-top: 20%;
+}
+
+.banner h4 {
+  font-weight: 500;
+  margin: 0 0 10px;
+  padding-top: 5%;
 }
 
 .banner p {
+  padding-top: 10px;
   margin: 0;
   line-height: 1.65;
   font-size: 20px;
@@ -92,7 +101,7 @@ body {
 }
 
 svg {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
